@@ -1,1 +1,1 @@
-# linkedin-learning-chrome-extension
+# packtpub-chrome-extension
