@@ -1,0 +1,20 @@
+{
+  "name": "Packtpub Adjust View",
+  "manifest_version": 2,
+  "description": "Ajusta a visualização do do conteúdo para o modo de tradução",
+  "version": "1.0",
+  "browser_action": {
+    "default_icon": "icon.png"
+  },
+  "permissions": [
+    "https://subscription.packtpub.com/book/",
+    "activeTab"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://subscription.packtpub.com/book/*"],
+      "js": ["script.js"],
+      "css": ["style.css"]
+    }
+  ]
+}
